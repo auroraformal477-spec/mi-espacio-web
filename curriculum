@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(220, 163, 201);">
+    <a name="principio"></a>
+    
+    <h1 >CURRICULUM</h1>
+    <img src="./imagenes/cara.webp" alt=""width="10%">
+
+    <h2 >DATOS PERSONALES:</h2>
+    
+            <td >Camila Aurora Scarazzini Fernandez</td>
+            <br>
+            <td><b>Domicilio:</b>...</td>
+            <br>
+            <td><b>Población:</b> Valencia (Valencia)</td>
+            <br>
+            <td><b>Codigo postal:</b> 1234</td>
+            <br>
+            <td><b>DNI:</b> 437392879Y</td>
+            <br>
+            <td><b>Fecha de nacimiento:</b> 17/07/2008</td>
+            <br>
+            <td><b>Telefono:</b> 623546876</td>
+    <h2>FORMACIÓN ACADEMICA:</h2>
+            <td>Grado en Ingeniería Informática</td>
+            <br>
+            <td>Universitat Politècnica de València (UPV) | 2022 a 2026</td>
+            <br>
+            <td>Mención en Ingeniería del Software / Computación</td>
+            <p></p>
+            <a href="#principio">Principio</a>
+
+            <table border="1" width="50%" align="center"> 
+        <tr> 
+            <td widht="80%" bgcolor="white">FORMACIÓN ACADEMICA</td>
+            <td>Grado en Ingeniería Informática</td>
+            <td>Universitat Politècnica de València (UPV) | 2022 a 2026</td>
+        </tr>
+        <tr>
+            <td bgcolor="white" rowspan="2">Mención</td>
+        <tr>
+            <td colspan="2" align="center">Mención en Ingeniería del Software / Computación</td>
+        </tr>    
+    </table>
+            
+   
+</body>
+</html>
