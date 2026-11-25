@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        table.columna {
+            display: inline-table;
+            width: 49%;
+            vertical-align: top;
+            border-spacing: 0 16px;
+        }
+
+        table.columna td {
+            vertical-align: top;
+        }
+
+        .acciones {
+            text-align: center;
+        }
+
+        @media (max-width: 700px) {
+            table.columna {
+                display: table;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="personales" role="presentation">
+        <tbody>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><b>Datos personales</b></legend>
+                        <p>
+                            Nombre:
+                            <input type="text" name="Nombre">
+                        </p>
+                        <p>
+                            Apellido:
+                            <input type="text" name="Apellido">
+                        </p>
+                        <p>
+                            Correo:
+                            <input type="email" name="Correo">
+                        </p>
+                        <p>
+                            Hobbies:
+                            <textarea id="hobbies" name="hobbies" cols="40" rows="5"></textarea>
+                        </p>
+                    </fieldset>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="columna" role="presentation">
+        <tbody>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><b>Domino los siguientes lenguajes</b></legend>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Writer <input type="checkbox" name="Writer" value="Writer"></td>
+                                    <td>Base <input type="checkbox" name="Base" value="Base"></td>
+                                </tr>
+                                <tr>
+                                    <td>Calc <input type="checkbox" name="Calc" value="Calc"></td>
+                                    <td>Impress <input type="checkbox" name="Impress" value="Impress"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><b>Idiomas</b></legend>
+                        <p>Puntúa tu nivel de inglés del 1 al 5:</p>
+                        <p>
+                            <b>Inglés</b>:
+                            1<input type="radio" name="Ingles" value="1" checked>
+                            2<input type="radio" name="Ingles" value="2">
+                            3<input type="radio" name="Ingles" value="3">
+                            4<input type="radio" name="Ingles" value="4">
+                            5<input type="radio" name="Ingles" value="5">
+                        </p>
+                        <p>
+                            <b>Francés</b>:
+                            1<input type="radio" name="Frances" value="1" checked>
+                            2<input type="radio" name="Frances" value="2">
+                            3<input type="radio" name="Frances" value="3">
+                            4<input type="radio" name="Frances" value="4">
+                            5<input type="radio" name="Frances" value="5">
+                        </p>
+                        <p>
+                            <b>Alemán</b>:
+                            1<input type="radio" name="Aleman" value="1" checked>
+                            2<input type="radio" name="Aleman" value="2">
+                            3<input type="radio" name="Aleman" value="3">
+                            4<input type="radio" name="Aleman" value="4">
+                            5<input type="radio" name="Aleman" value="5">
+                        </p>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><b>Trabajo con el siguiente Sistema Operativo</b></legend>
+                        <select id="so" name="so">
+                            <option value="windows">Windows</option>
+                            <option value="Linux">Linux</option>
+                        </select>
+                    </fieldset>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="acciones">
+        <input type="reset" value="Reiniciar">
+        <input type="image" name="enviar" src="images/boton.png" alt="Enviar formulario">
+    </p>
+</body>
+
+</html>
